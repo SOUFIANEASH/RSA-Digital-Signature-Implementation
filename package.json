@@ -1,0 +1,12 @@
+{
+  "name": "rsa-signature",
+  "version": "1.0.0",
+  "description": "RSA digital signature demo: signer, tampering proxy and verifier communicating over sockets",
+  "scripts": {
+    "app1": "node app1-sender.js",
+    "app2": "node app2-proxy.js",
+    "app3": "node app3-verifier.js",
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
